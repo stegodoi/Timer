@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.focusTimerContent {
+    display: flex;
+    width: 100vw;
+
+    justify-content: center;
+}
+
+.timer-button {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex {
+    display: flex;
+}
+
+#timer {
+    color: #323238;
+
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 126.166px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+   
+   
+}
+
+.timer-button button {
+  
+    background-color: transparent;
+    border: none;
+
+   
+    font-size: 48px;
+
+    margin: 20px;
+}
+
+
+
+.first-row {
+    display: flex;
+    gap: 20px;
+}
+
+.second-row {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    width: 70%;
+}
+
+.music-on {
+    filter: sepia(50%)
+}
+
+
+#forest {
+    border-radius: 24px;
+}
+
+#rain {
+    border-radius: 24px;
+}
+
+#coffee-shop {
+    border-radius: 24px;
+}
+
+#fireplace {
+    border-radius: 24px;
+}
+
